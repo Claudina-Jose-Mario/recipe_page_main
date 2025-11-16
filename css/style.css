@@ -3,3 +3,111 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    background-color: rgb(235, 214, 217);
+}
+
+.main {
+    background-color: white;
+    width: 450px;
+    margin: 3em auto;
+    border-radius: 10px;
+    padding: 1.6em;
+}
+
+h1 {
+    margin: 0.5em;
+}
+
+.div-preparation {
+    background-color: rgb(235, 187, 195);
+    margin: 0.5em auto 0.8em auto;
+    border-radius: 10px;
+    padding: 0.5em;
+}
+
+.preparation {
+    color: purple;
+}
+
+.list-one {
+    margin: 1em;
+}
+
+h2 {
+    color: brown;
+}
+
+.item::marker {
+    color: purple;
+}
+
+.list-item::marker {
+color: brown;
+}
+
+ hr {
+    margin: 1em 0 1em 0;
+ }
+
+ h2, li, p {
+    padding: 0.3em;
+ }
+
+.valor {
+    color: brown;
+    text-align: right;
+} 
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+
+}
+
+tr {
+    border-bottom: 1px solid gray;
+    border-collapse: collapse;
+}
+
+.valor {
+    display: inline-block;
+}
+
+span {
+    align-items: right;
+}
+
+.peso {
+    text-align: center;
+}
+
+.valor {
+    display: inline-block;
+}
+
+ul, ol {
+    list-style-position: inside;
+}
+
+img {
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+    
+}
+
+tr, td {
+    padding: 0.7em;
+}
+
+tr:last-child {
+    border-bottom: none;
+}
+
+.peso {
+    color: brown;
+    font-weight: bold;
+    text-align: left;
+}
